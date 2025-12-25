@@ -228,7 +228,7 @@ copies or substantial portions of the Software.
 - Email: [hanruericqiu@gmail.com](mailto:hanruericqiu@gmail.com)
 
 ## 📈 Downloads
-https://img.shields.io/github/downloads/QIU2014/GobangGameMC/latest/total
+[![count](https://img.shields.io/github/downloads/QIU2014/GobangGameMC/latest/total)](https://github.com/QIU2014/GobangGameMC/releases/latest)
 
 ### Made with ❤️ for the Minecraft community
 Star this repo if you find it useful! ⭐

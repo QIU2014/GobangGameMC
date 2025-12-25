@@ -1,0 +1,26 @@
+# Gobang Game Configuration
+
+# Game Settings
+game:
+  turn-time: 60 # Time per turn in seconds
+  board-size: 15 # Size of the board (15x15)
+
+# Messages
+messages:
+  prefix: "&8[&6Gobang&8] &7"
+  no-permission: "&cYou don't have permission to use this!"
+  player-offline: "&cThat player is offline!"
+  already-ingame: "&cYou are already in a game!"
+  opponent-ingame: "&cThat player is already in a game!"
+  not-your-turn: "&cIt's not your turn!"
+  invalid-move: "&cInvalid move!"
+  game-won: "&a&lYou won the game!"
+  game-lost: "&c&lYou lost the game!"
+  game-draw: "&e&lGame ended in a draw!"
+
+# GUI Settings
+gui:
+  main-menu-title: "&8Gobang Game"
+  game-title: "&8Gobang Game"
+  player-selector-title: "&8Select Player"
+  invitations-title: "&8Pending Invitations"

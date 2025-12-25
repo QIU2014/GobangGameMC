@@ -1,0 +1,34 @@
+name: GobangGameMC
+version: 1.0.0
+main: com.eric.GobangGameMC.GobangGameMC
+api-version: '1.21'
+author: Eric
+description: Play Gobang (Five in a Row) in Minecraft!
+website: https://github.com/QIU2014/GobangGameMC
+load: POSTWORLD
+
+commands:
+  gobanggame:
+    description: Play Gobang game
+    usage: |
+      /gobanggame - Open game menu
+      /gobanggame invite <player> - Invite a player
+      /gobanggame accept <player> - Accept invitation
+      /gobanggame deny <player> - Deny invitation
+      /gobanggame quit - Leave current game
+      /gobanggame help - Show help
+    aliases: [gg, gobang, fiveinarow]
+    permission: gobanggame.use
+
+permissions:
+  gobanggame.use:
+    description: Allows use of Gobang commands
+    default: true
+
+  gobanggame.invite:
+    description: Allows sending game invitations
+    default: true
+
+  gobanggame.accept:
+    description: Allows accepting game invitations
+    default: true
